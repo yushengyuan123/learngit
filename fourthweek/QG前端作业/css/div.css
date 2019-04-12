@@ -1,0 +1,587 @@
+body{
+	height: 900px;
+	width: 100%;
+	text-align: center;
+}
+
+
+#adidas_brank{
+
+	width: 100%;
+	height: 10%;
+	background-color: black;
+	display: inline-block;
+	text-align: center;
+}
+
+.adidas_sort{
+	width: 90%;
+	margin: auto;
+	height: 60%;
+	text-align:left;
+	
+}
+
+.nav_bar{
+	width:34%;
+	margin-right: 0px;
+	display: inline-block;
+	min-width: fit-content;
+	
+}
+
+.nav_pills{
+	margin:0px;
+	float:right;
+	color:white;
+	font-size:20px;
+	font-weight: bold;
+	margin-left:0px;
+	margin-top: 12px;
+}
+
+.adidas_photo{
+	margin-top: 0px;
+	margin-right: 0px;
+	font-size: 30px;
+	width: 10%;
+	display: inline-block;
+}
+
+.search_list{
+	float: right;
+	width:20%;
+	height:100%;
+}
+
+.shrink_expand{
+	border: 1px solid #CCC;
+    cursor: pointer;
+    height: 30px;
+    margin: 3px 0;
+    text-indent:10px;
+    position: relative;
+    transition: width 400ms ease, background 400ms ease, border-radius 400ms ease;
+    width: 150px;
+    font-size: 16px;
+	border-radius:10px;
+
+}
+
+.shrink_expand:focus{
+
+	background-color: #fff;
+    border: 2px solid black;
+    cursor: text;
+    outline: 0;
+    width: 230px;
+
+}
+
+.top_nav{
+	width: 90%;
+	height:100%;
+	margin: auto;
+	text-align: right;
+}
+
+.top_nav_detail{
+	margin-top:0px;
+	float:right;	
+}
+
+.top_nav_detail_follow{
+	margin-left: 20px;
+	color: white;
+}
+
+#top_function{
+
+	width: 100%;
+	height: 30%;
+	display: inline-block;
+}
+
+#header{
+	width: 100%;
+	height: 50%;
+	color: white;
+	padding-left: 15rem;
+	font-size: 1.5em;
+	padding-top:1rem;
+	background-image: url(../images/adidas.png);
+	background-position:left;
+	background-repeat: no-repeat;
+}
+
+#main{
+
+	height: 80%;
+	background-color: white;
+	width: 100%;
+
+}
+
+#vertical_sperate{
+	width:2px;
+	height:70%;
+	display: inline-block;
+	background-color: yellow;
+	margin-top: 5rem;
+
+}
+
+#article_nav{
+	width: 100%;
+	background-color: white;
+	height: 5%;
+
+}
+
+.list-line{
+	margin-left: 125px;
+	
+}
+li{
+	float: left;
+	padding: 5px;
+	list-style: none;
+}
+
+.first_place_vc{
+	width: 5%;
+	height: 100%;
+	display: inline-block;
+	background-color: white;
+	
+}
+
+.login_in{
+	width: 100%;
+	height: 60%;
+	background-color:black;
+	box-sizing: border-box;
+
+}
+
+.login_in_show{
+	background-color: white;
+	height:70%;
+	width: 100%;
+	border-right: 2px solid black;
+}
+
+.login_in_left{
+	background-color: white;
+	height:100%;
+	width: 42%;
+	margin-left: 8%;
+	border-right: 2px solid red;
+	display:inline-block;
+	margin-right: 0px;
+	float:left;
+}
+
+.login_in_box{
+	width: 70%;
+	height: 100%;
+	background-color: white;
+	margin-left: 50px;
+	
+}
+
+.box-content{
+	height: 13%;
+	width: 100%;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+.title_left{
+	background-color: white;
+	height:60%;
+	width: 50%;
+	margin-top: 0;
+	padding-bottom: 10px;
+	border-bottom: solid;
+	border-bottom-color: black;
+	display: inline-block;
+	margin-right: 0;
+	font-size: 1.5em;
+}
+
+.title_right{
+	background-color: white;
+	width: 50%;
+	height: 86%;
+	margin-top: 0;
+	padding-bottom: 10px;
+	border-bottom: solid;
+	border-bottom-color: black;
+	box-sizing: border-box;
+	float: right;
+	text-align: center;
+}
+
+.login_in_detail{
+	background-color: white;
+	height: 100px;
+	width: 90%;
+}
+
+.input_field{
+	width: 90%;
+	height: 35%;
+	background-color: white;
+	text-align: left;
+}
+
+#gl_input_field{
+	width: 90%;
+	height: 70%;
+}	
+
+.gl-input_label{
+	display: flex;
+	align-content: flex-start;
+	align-items: flex-start;
+	position: absolute;
+	left: 10%;
+	top: 39%;
+}
+
+.please_input{
+	
+	text-align:left;
+	color: red;
+}
+
+.input_field_code{
+	width: 90%;
+	height: 35%;
+	background-color: white;
+	background-color: white;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+	text-align: left;
+	
+}
+
+#gl_input_field1{
+	width: 70%;
+	height: 70%;
+	margin-right: 20%;
+	margin-right:0px;
+}
+
+.indenfy_code{
+	width: 20%;
+	height: 70%;
+	margin-left:0px;
+	background-color: black;
+	display: inline-block;
+	color: white;
+}
+
+.indenfy_code:after{
+	content:"";
+	margin-left: 0px;
+}
+
+.login_in_remember{
+	background-color:white;
+	height: 8%;
+	width: 90%;
+	text-align:left;
+	margin-top: 20px;
+}
+
+.remember_phone_number{
+	background-color: white;
+	font-size: 15px;
+
+}
+
+#login_btn{
+	width: 100%;
+
+}
+.entrence{
+	height: 40px;
+	width: 75%;
+	margin-top: 10px;
+	background-color: black;
+	text-align: center;
+	line-height: 40px;
+	font-size: 25px;
+	color: white;
+}
+
+.third-party{
+	height: 50px;
+	background-color: white;
+	width: 90%;
+	text-align: left;
+	line-height: 50px;
+	border-top: 2px dashed grey;
+}
+
+.list-line1{
+	text-align: left;
+	background-color: white;
+	height: 50px;
+	width: 90%;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding-left: 0px;
+	margin-bottom : 0px;
+}
+
+.wechat{
+	margin-right: 20px;
+}
+
+.QQ{
+	margin-right: 20px;
+}
+
+.weibo{
+	margin-right: 20px;
+}
+
+.third-tit-bottom{
+	font-size:12px;
+	text-align:left;
+	margin-top: 0px;
+}
+
+.login_right{
+	background-color:white;
+	width: 45%;
+	height: 70%;
+	float:right;
+	text-align:left;
+}
+
+.login-boxshow-mobb{
+	background-color: white;
+	width: 70%;
+	height: 100%;
+
+}
+
+.benifit{
+	margin-top: 0px;
+	font-size: 25px;
+	margin-bottom:15px;
+	
+}
+
+.benifit_detail{
+	background-color:white;
+	height: 70%;
+	width: 90%;
+	margin-top: 0px;
+
+}
+
+.login_in_right_titl{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.register_inner{
+	background-color: white;
+	height: 70%;
+	width: 100%;
+	margin-top: 8%;
+
+}
+
+.detail{
+	margin-bottom: 5px;
+
+}
+
+
+.square_adidas{
+	width: 50%;
+	height:10%;
+	background-color:white;
+	display: block;
+	margin: auto;
+	
+}
+
+.square_adidas{
+	width:50px;
+	height:50px;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius:50px;
+	position:relative;
+	-webkit-animation-name:myfirst;
+	-webkit-animation-duration:5s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+/* Opera: */
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%  {background:black; left:0px; top:120px;}
+25%  {background:black; left:200px; top:120px;}
+50%  {background:black; left:200px; top:200px;}
+75%  {background:black; left:0px; top:200px;}
+100% {background:black; left:0px; top:120px;}
+}
+
+.tiles {
+	background-color: white;
+	width: 100%;
+	height: 200px;
+	perspective: 1000px;
+	text-align: center;
+}
+
+.col {
+  position: relative;
+  margin: 6px;
+  width: 100%;
+  height: calc(150px - 12px);
+  display: inline-block;
+}
+
+.col a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.col a:nth-child(1) {
+  -webkit-clip-path: polygon(0 0, 100% 0, 50% 50%);
+  clip-path: polygon(0 0, 100% 0, 50% 50%);
+}
+
+.col a:nth-child(2) {
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+  clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+}
+
+.col a:nth-child(3) {
+  -webkit-clip-path: polygon(0 100%, 50% 50%, 100% 100%);
+  clip-path: polygon(0 100%, 50% 50%, 100% 100%);
+}
+
+.col a:nth-child(4) {
+  -webkit-clip-path: polygon(0 0, 50% 50%, 0 100%);
+  clip-path: polygon(0 0, 50% 50%, 0 100%);
+}
+
+.col a:hover {
+  z-index: 3;
+  -webkit-clip-path: none;
+  clip-path: none;
+}
+
+.col a:nth-child(1):hover ~ .box {
+  transform: rotateX(180deg);
+}
+
+.col a:nth-child(2):hover ~ .box {
+  transform: rotateY(180deg);/*这是想垂直于纸面旋转*/
+}
+.col a:nth-child(3):hover ~ .box {
+  transform: rotateX(-180deg);/*就是平时的y轴*/
+}
+.col a:nth-child(4):hover ~ .box {
+  transform: rotateY(-180deg);
+}
+
+.col a:nth-child(1):hover ~ .box:after, .col a:nth-child(3):hover ~ .box:after {
+  transform: rotateX(-180deg);
+}
+
+.col a:nth-child(2):hover ~ .box:after, .col a:nth-child(4):hover ~ .box:after {
+  transform: rotateY(-180deg);
+}
+
+.col .box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  transform-style: preserve-3d;
+  transition: transform .3s ease-in-out;
+}
+
+.col .box:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 40px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;/*字体抗锯齿*/
+  border-radius: 2px;
+  z-index: 2;
+  backface-visibility: hidden;/*隐藏被选转的div元素的背面*/
+
+}
+
+.col .box:after {
+  content: 'JOIN US';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333;
+  color: #FFF;
+  font-size: 150px;
+  border-radius: 2px;
+  transition-delay: .15s;
+}
+
+.col:nth-child(1) .box:before {
+  content: "ADIDAS";
+  background: black;
+  font-size: 150px;
+}
+.col:nth-child(1) .box:after {
+  background: black;
+}
+
+.col:nth-child(2) .box:before {
+  content: "D";
+  background: #1da1f2;
+}
+.col:nth-child(2) .box:after {
+  background: #1da1f2;
+}
+
+.col:nth-child(3) .box:before {
+  content: "i";
+  background: #dc4a38;
+}
+.col:nth-child(3) .box:after {
+  background: #dc4a38;
+}
+
+
+
+
+
+
